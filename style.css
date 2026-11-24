@@ -1,0 +1,91 @@
+
+body {
+    background-color: aliceblue;
+    font-family: Arial, sans-serif;
+margin: 0px;
+}
+h1 {
+    color: beige;
+
+}
+
+p {
+    color: brown
+}
+h2 {
+    color: blue;
+}
+.manga {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px  3px black;
+
+} 
+header
+{
+    background-color: blueviolet;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+} 
+.ordinateur {
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+
+}
+.clavier {
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    
+}
+.ecran {
+    display: flex;
+    flex-direction: column;
+border-radius: 50px;
+}
+
+.toni {
+    display: flex;
+   justify-content: space-between;
+   align-items: flex-end
+   
+}
+nav a {
+    color: white;
+    margin: 15px;
+}
+.presentation {
+display: flex;
+    background-color: beige;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-between;
+
+
+
+}
+footer  {
+    background-color: beige;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.les-produits { 
+    display: flex;
+    gap: 30px;
+
+
+ }
+ .produits {
+    margin: 20px;
+ }
+ em {
+    color: black;
+ }
